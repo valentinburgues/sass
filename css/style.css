@@ -1,0 +1,20 @@
+header {
+  background-color: black;
+  border-radius: 6px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: underline;
+}
+header nav ul li a:hover {
+  text-decoration: overline;
+}
+@media screen and (max-width: 468px) {
+  header {
+    background-color: blue;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
